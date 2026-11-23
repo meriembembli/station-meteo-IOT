@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "80917634342",
+    "firebase_url": "https://stationmeteo-846a7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "stationmeteo-846a7",
+    "storage_bucket": "stationmeteo-846a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80917634342:android:f170721bf352b2e91d35e7",
+        "android_client_info": {
+          "package_name": "com.example.atmos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSF68gJMZAPOU1SvQY9MZLqgFlo0aiEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

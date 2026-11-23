@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "stations": {
+      "$stationId": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "latest": {
+          ".validate": "newData.hasChild('t')"
+        },
+        "history": {
+          ".indexOn": ["t"],
+          "$entry": {
+            ".validate": "newData.hasChild('t')"
+          }
+        },
+        "events": {
+          ".indexOn": ["startedAt"]
+        }
+      }
+    }
+  }
+}

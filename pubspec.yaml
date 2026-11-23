@@ -1,0 +1,25 @@
+name: atmos
+description: "ATMOS — interface mobile de la station météorologique intelligente et connectée (ESP32). Données Firebase ou mode démo."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+# Firebase (packages officiels) pour le backend ; le mode démo n’en a pas besoin.
+dependencies:
+  firebase_auth: ^7.0.1
+  firebase_core: ^5.1.0
+  firebase_database: ^13.0.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

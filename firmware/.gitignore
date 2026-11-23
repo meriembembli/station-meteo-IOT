@@ -1,0 +1,5 @@
+# Identifiants Wi-Fi et Firebase : ne jamais publier.
+atmos_station/secrets.h
+
+# Identifiants MicroPython : ne jamais publier.
+micropython/config.py
